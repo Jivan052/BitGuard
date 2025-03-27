@@ -355,7 +355,7 @@ const SignUp = () => {
             <CardFooter className="flex flex-col space-y-4">
               <div className="text-sm text-center text-muted-foreground">
                 Already have an account?{" "}
-                <a href="/" className="text-primary hover:underline">
+                <a href="/dashboard" className="text-primary hover:underline">
                   Log in
                 </a>
               </div>
