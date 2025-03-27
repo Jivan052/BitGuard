@@ -33,6 +33,8 @@ const Navbar = () => {
     { name: 'Smart Contracts', path: '/smart-contracts' },
     { name: 'Recommendations', path: '/recommendations' },
     { name: 'Pricing', path: '/pricing' },
+    { name: 'Dashboard', path: '/dashboard' },
+    { name: 'Sign Up', path: '/sign-up' },
   ];
 
   return (
