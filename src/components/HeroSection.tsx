@@ -134,7 +134,7 @@ const HeroSection = () => {
                 ))}
               </div>
               <p className="ml-0 sm:ml-4 text-sm text-muted-foreground">
-                Joined by <span className="font-medium text-foreground">2,500+</span> Bitcoin investors worldwide
+                Joined by <span className="font-medium text-foreground"></span> Bitcoin investors worldwide
               </p>
             </div>
             
