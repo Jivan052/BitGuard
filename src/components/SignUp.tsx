@@ -319,11 +319,11 @@ const SignUp = () => {
                       className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                     >
                       I agree to the{" "}
-                      <a href="/terms" className="text-primary hover:underline">
+                      <a href="/sign-up" className="text-primary hover:underline">
                         terms of service
                       </a>{" "}
                       and{" "}
-                      <a href="/privacy" className="text-primary hover:underline">
+                      <a href="/sign-up" className="text-primary hover:underline">
                         privacy policy
                       </a>
                     </label>
@@ -355,7 +355,7 @@ const SignUp = () => {
             <CardFooter className="flex flex-col space-y-4">
               <div className="text-sm text-center text-muted-foreground">
                 Already have an account?{" "}
-                <a href="/login" className="text-primary hover:underline">
+                <a href="/" className="text-primary hover:underline">
                   Log in
                 </a>
               </div>
