@@ -33,8 +33,6 @@ const Navbar = () => {
     { name: 'Smart Contracts', path: '/smart-contracts' },
     { name: 'Recommendations', path: '/recommendations' },
     { name: 'Pricing', path: '/pricing' },
-    { name: 'Dashboard', path: '/dashboard' },
-    { name: 'Sign Up', path: '/sign-up' },
   ];
 
   return (
@@ -140,12 +138,12 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="flex space-x-3 pt-2 border-t border-muted mt-3">
-                <Link to="/login" className="flex-1">
+                <Link to="/dashboard" className="flex-1">
                   <Button variant="outline" className="w-full">
                     Log In
                   </Button>
                 </Link>
-                <Link to="/signup" className="flex-1">
+                <Link to="/sign-up" className="flex-1">
                   <Button className="w-full bg-primary hover:bg-primary/90">
                     Sign Up
                   </Button>
